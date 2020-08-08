@@ -1,0 +1,206 @@
+
+body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+    text-align: center;
+    background-color: #EAF6F6;
+}
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;/*do not affect other than this one*/
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2,5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+} 
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #40514e;
+    line-height: 2;
+}
+hr{
+    border: 6px dotted #a6aaaa;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+a{
+    color: #11999E;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+/*'''''''''''''''''''CLASS SELECTORS'''''''''''''''''''''''*/
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.subtitle{
+    font-weight: bold;
+    line-height: 2;
+}
+.pro{
+    text-decoration: underline;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro-text{
+    width: 30%;
+    margin: auto;
+}
+.skills{
+    position: relative;
+}
+.skill-row{
+    text-align: left;
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.climbing{
+    float: left;/*only when necessary*/
+    margin-right: 30px;
+    width: 40%;
+    height: 40%;
+}
+
+/* my choice two design
+.climbing-description{
+    clear: left;
+} */
+.tourist{
+    float: right;
+    margin-left: 30px;
+    width: 45%;
+    height: 45%;
+}
+/* my choice two design
+.tourist-description{
+    clear: right;
+} */
+
+.suitcase{
+    float: left;
+    margin-right: 30px;
+    width: 30%;
+    height: 30%;
+}
+/* my choice two design
+.suitcase-description{
+    clear: left;
+} */
+.health-insurance{
+    float: right;
+    margin-left: 30px;
+    width: 30%;
+    height: 30%;
+}
+/* my choice two design
+.health-insurance-description{
+    clear: right;
+} */
+
+.horseshoe{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+    height: 30%;
+}
+/* my choice two design
+.horseshoe-description{
+    clear: left;
+} */
+
+.contact-me{
+    /* background-color: #D2FAFB; */
+    position: relative;
+}
+.contact-description{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #148080);
+    background-image: -moz-linear-gradient(top, #66BFBF, #148080);
+    background-image: -ms-linear-gradient(top, #66BFBF, #148080);
+    background-image: -o-linear-gradient(top, #66BFBF, #148080);
+    background-image: linear-gradient(to bottom, #66BFBF, #148080);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:2px;
+    box-shadow-horizontal: -20;
+    box-shadow-vertical: 6;
+    box-shadow-blur: 22;
+    box-shadow-spread: 0;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    }
+    
+.btn:hover {
+    border: solid #FFFFFF 0px;
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    }
+
+.bottom-container{
+    background-color: #66BFBF; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
+
