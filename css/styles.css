@@ -80,11 +80,13 @@ a:hover{
 }
 .skills{
     position: relative;
-    height: 1000px;
+    height: 100rem;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
 }
 .skill-row1{
     text-align: left;
-    top: 0;
     left: 0;
     width: 50%;
     position: absolute;
@@ -92,7 +94,7 @@ a:hover{
 }
 .skill-row2{
     text-align: right;
-    top: 50%;
+    top: 20%;
     right: 0;
     width: 50%;
     position: absolute;
@@ -101,7 +103,7 @@ a:hover{
 
 .skill-row3{
     text-align: left;
-    top: 100%;
+    top: 40%;
     left: 0;
     width: 50%;
     position: absolute;
@@ -109,7 +111,7 @@ a:hover{
 }
 .skill-row4{
     text-align: right;
-    top: 150%;
+    top: 60%;
     right: 0;
     width: 50%;
     position: absolute;
@@ -117,7 +119,7 @@ a:hover{
 }
 .skill-row5{
     text-align: left;
-    top: 200%;
+    top: 80%;
     left: 0;
     width: 50%;
     position: absolute;
